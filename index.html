@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">               
+    </head>
+    <body>
+        
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <p class="scores" id="t-score1">0</p>
+                <div class="inside-container">
+                    <button id="add-score" onclick="t1add1()">+1</button>
+                    <button id="add-score" onclick="t1add2()">+2</button>
+                    <button id="add-score" onclick="t1add3()">+3</button>
+                    <button id="add-score" onclick="t1sub1()">-1</button>
+                </div>
+                <div class="inside-container">
+                    <h1 id="foul1">⚫⚫⚫⚫⚫⚫</h1>
+                    <button class="btn-foul" onclick="foul1()">Foul</button>
+                </div>
+            </div>
+            <div >
+                <div class="inside-container" >
+                    <div id="ten-countdown">00:00</div>
+                </div>
+                
+                <div class="box-order" >
+                    <div>
+                        <button id="quarter-btn">Q1</button>
+                        <button id="quarter-btn">Q2</button>
+                    </div>
+                    <div>
+                        <button id="quarter-btn">Q3</button>
+                        <button id="quarter-btn">Q4</button>
+                    </div>
+                </div>
+                <div class="inside-container" >
+                <button onclick="gameStart()" id="btn-start">New game</button> 
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                 <p  class="scores" id="t-score2">0</p>
+                <div class="inside-container">
+                    <button id="add-score" onclick="t2add1()">+1</button>
+                    <button id="add-score" onclick="t2add2()">+2</button>
+                    <button id="add-score" onclick="t2add3()">+3</button>
+                    <button id="add-score" onclick="t2sub1()">-1</button>
+                </div>
+                <div class="inside-container">
+                    <h1 id="foul2">⚫⚫⚫⚫⚫⚫</h1>
+                    <button class="btn-foul" onclick="foul2()">Foul</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
