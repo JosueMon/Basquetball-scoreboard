@@ -93,3 +93,10 @@ h3 {
     box-shadow: 2px 2px black;
     background-color: #F94F6D;
 }
+
+.home {
+    color: #1B244A;
+}
+.away {
+    color: #601700;
+}
